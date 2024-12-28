@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+  
+ 
+}
+
+ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+ 
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3 ,a{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Estilo compartilhado */
+
+.card-plano {
+  border:1px solid #dedede;
+  padding:80px 40px;
+  /* height: 1067px; */
+  width: 335px ;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 50px 5rem 45rem ;
+  
+}
+
+
+
+.card-plano h3 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight:700 ;
+  color:#000;
+  margin-bottom: 10px;
+  
+}
+
+
+.card-plano .card-descricao  {
+  font-size: .75rem;
+  line-height: 1.1;
+  font-weight:700 ;
+  color:#5c5c5c;  
+  
+  
+}
+
+.card-descricao {
+  margin-bottom: 30px;
+  
+  
+}
+
+.card-plano .valor  {
+  font-size:3.437rem;
+  line-height: 1.1;
+  font-weight: 900;
+  color:#30D7BA;
+   margin-top: 50px;
+   margin-bottom: 40px;
+   position: relative;
+   
+  
+}
+
+
+
+
+.card-plano .valor  span {
+  font-size:.75rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color:#5c5c5c; 
+  display: inline-block;
+  
+}
+
+.card-plano .valor span::before {
+  content: "$";
+  display: block;
+  position: absolute;
+  font-size: 1.875rem;
+  top: -3px;
+  color: #30D7BA;
+}
+
+
+.card-plano ul li {
+  font-size:.937rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color:#000;
+  margin-bottom: 20px;
+  
+}
+
+.botao-planos {
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    color:#ffffff;
+    background: #03D6F3;
+    padding: 20px 100px;
+    border-radius: 60px;
+    filter:drop-shadow(2px 2px 15px rgba(0, 0, 0, 0.10)) drop-shadow(-2px -2px 15px rgba(0, 0, 0, 0.10));
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+

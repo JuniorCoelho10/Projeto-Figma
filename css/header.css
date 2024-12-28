@@ -1,0 +1,104 @@
+.header {
+  background:linear-gradient(to bottom left, #CB1AE8  0% ,#37BDA6  100%);
+
+}
+.header-container {
+  /* max-width: 1200px; */
+  margin-inline:auto;
+  padding: 30px 80px;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ 
+}
+
+.header-menu {
+  display: flex;
+  gap:51px;
+  
+ 
+
+}
+
+.header-menu li a {
+  font-weight: 400;
+  font-size:1.1rem;
+  line-height:1.3 ;
+  color:#ffff;
+  
+}
+
+.botao-sign-up {
+  display: flex;
+  align-items: end;
+  font-size: 1rem;
+  line-height: 1;
+  color:#ffff;
+  border:1px solid #fff;
+  padding:20px 40px;
+  border-radius: 40px;
+  
+}
+
+.introducao h1 {
+  font-size: 3.437rem;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: center;
+  color:#fff;
+  margin-top:100px;
+}
+
+.introducao p {
+  font-size: 1rem;
+  line-height: 1;
+  color:#e5e5e5;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.introducao-botoes {
+  display: flex;
+  gap:15px;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.botao-1-introducao {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 500;
+  background:#ffff ;
+  padding:15px 30px;
+  border-radius:30px;
+  color:#112D57;
+  
+}
+
+.botao-2-introducao {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  padding:15px 30px;
+  border:1px solid #ffff;
+  border-radius:30px;
+  color:#ffff;
+}
+
+.dashboard {
+  text-align: center;
+  margin-top: 100px;
+  filter:drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.20)) drop-shadow(-20px -20px 30px rgba(0, 0, 0, 0.15));
+}
+
+
+  
+
+  
+
+
+
+
+
+
+
